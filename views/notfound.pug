@@ -1,0 +1,13 @@
+extend layout
+
+append vars
+  - title = 'עמוד לא נמצא'
+  - footer_links = false
+
+block content
+  .container
+    h1.mb-3 עמוד לא נמצא
+    p ניתן #[a(href='.') לחזור לעמוד הראשי] או לבצע חיפוש:
+
+    +searchForm
+

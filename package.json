@@ -1,0 +1,30 @@
+{
+  "name": "thisworld.online",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node src/server.js",
+    "build": "./build.sh"
+  },
+  "author": "thisworld.online",
+  "license": "AGPLv3",
+  "dependencies": {
+    "@popperjs/core": "^2.3.3",
+    "bootstrap-autocomplete": "^2.3.4",
+    "bootswatch": "^4.4.1",
+    "express": "^4.17.1",
+    "jquery": "^3.5.0",
+    "jstransformer-markdown-it": "^2.1.0",
+    "mark.js": "^8.11.1",
+    "markdown-it-link-target": "^1.0.2",
+    "morgan": "^1.10.0",
+    "pug": "^2.0.4",
+    "solr-client": "^0.7.1",
+    "stylus": "^0.54.7",
+    "superagent": "^5.2.2",
+    "tippy.js": "^6.2.2"
+  },
+  "devDependencies": {
+    "terser": "^4.6.11",
+    "uglify-js": "^3.9.1"
+  }
+}

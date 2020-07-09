@@ -1,0 +1,35 @@
+extend layout
+
+append vars
+  - title = `שנת ${year}${show_backpage ? ' - תצוגת שער אחורי' : ''}`
+  - meta_img = issues[0] && issues[0].coverpage
+
+  - backpage_param = show_backpage ? '/backpage' : ''
+
+  - year_idx = availableYears.indexOf(year)
+  - prev_year = availableYears[year_idx-1]
+  - next_year = availableYears[year_idx+1]
+
+block content
+  .container
+    h1.mb-3
+      if prev_year
+        a.btn.btn-link(href=prev_year+backpage_param) 🠚 שנה קודמת
+        = ' '
+      span(itemprop='datePublished', content=`${year}-01-01`)= title
+      if next_year
+        = ' '
+        a.btn.btn-link(href=next_year+backpage_param) שנה הבאה 🠘
+
+    if !issues.length
+      p לצערנו גליונות שנת #{year} חסרים. ניתן לעיין בהם ובשאר גליונות 'העולם הזה' בספריית בית אריאלה בת"א ובספריה הלאומנית בירושלים.
+
+    else
+      +searchForm({}, year, `חפשו ב-${year}`)
+        = ' '
+        if show_backpage
+          a.btn.btn-lg.btn-info.mb-2.ml-2(href=year) מעבר לתצוגת שער קדמי
+        else
+          a.btn.btn-lg.btn-info.mb-2.ml-2(href=`${year}/backpage`) מעבר לתצוגת שער אחורי
+
+      include _issue_list

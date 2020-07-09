@@ -1,0 +1,5 @@
+- backpage_param = show_backpage ? '/backpage' : ''
+.mb-3
+  for ayear in availableYears
+    a.mb-1.mr-1.btn.btn-secondary.btn-sm(href=ayear+backpage_param, class=(year==ayear?'active':''))
+      | #[span.d-none.d-sm-inline 19]#{ayear.toString().substr(2)}

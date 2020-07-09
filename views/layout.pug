@@ -1,0 +1,79 @@
+doctype html
+
+include _mixin
+
+block vars
+  - meta_desc = null
+  - meta_img = null
+  - footer_links = true
+  - noindex = false
+
+- full_title = full_title || `${ title ? title + ' - ' : '' }ארכיון העולם הזה`
+- full_meta_desc = full_meta_desc || `ארכיון 'העולם הזה' - ${ meta_desc || title }`
+
+head
+
+  meta(charset='utf-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1')
+  base(href=baseHref)
+
+  title= full_title
+  meta(name='description', content=full_meta_desc)
+  link(rel='shortcut icon', type='image/png', href=baseStatic+'img/favicon.png')
+
+  link(rel='stylesheet', href=baseStatic+'bootstrap.min.css')
+  link(rel='stylesheet', href=baseStatic+'style.css')
+
+  if meta_img
+    meta(property='og:image', content=meta_img)
+
+  if noindex
+     meta(name='robots', content='noindex')
+
+body.d-flex.flex-column
+  nav.navbar.sticky-top.navbar-dark.bg-primary.mb-3: .container
+    a.navbar-brand(href=''): img(src=baseStatic+'img/logo.png', alt='העולם הזה', height='25')
+    form.form-inline.d-flex(method='get', action='search').position-relative
+      .input-group
+        input.form-control(type='text', name='q', required,
+          placeholder='מילות חיפוש', autocomplete="off", value=(query && query.q),
+          data-url="suggest" data-noresults-text="לא נמצאו השלמות.")
+        .input-group-append: button.btn.btn-secondary(type='submit'): +search_button
+      select.year-select.custom-select.ml-3(name='')
+        option(value='') שנים
+        for ayear in availableYears
+          option(selected=(year==ayear))= ayear
+
+  #content.flex-grow-1
+    block content
+
+  .container.small.pt-3: span.back-to-top.text-link חזרה לתחילת העמוד
+
+  footer.container.d-flex.justify-content-between.mt-3.pt-2
+    p
+      a(href='about') אודות
+      != ' &middot; '
+      a(href='https://github.com/thisworld1/thisworld.online', target='_blank') קוד פתוח
+      != ' &middot; '
+      a(href='https://github.com/thisworld1/thisworld.online/blob/master/api.md', target='_blank') API
+      != ' &middot; '
+      a.font-weight-bold(href='archive') הורדת ארכיון מלא
+    if footer_links
+      p.ml-4
+        for term, i in rterms
+          != i> 0 ? ' &middot; ' : ''
+          a(href=term.href)= term.label
+
+  if settings.env == 'development'
+    script(src=baseStatic+'jquery.min.js')
+    script(src=baseStatic+'bootstrap-autocomplete.min.js')
+    script(src=baseStatic+'popper.min.js')
+    script(src=baseStatic+'tippy.min.js')
+    script(src=baseStatic+'mark.min.js')
+    script(src=baseStatic+'script.js')
+  else
+    script(src=baseStatic+'bundle.js')
+
+  if process.env.GA_TRACKING
+    script(async, src=`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING}`)
+    script window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag('js', new Date());gtag('config', '#{process.env.GA_TRACKING}')

@@ -1,0 +1,57 @@
+version: '3'
+
+services:
+  webapp:
+    build: .
+    expose:
+      - "4433"
+    links:
+      - solr
+    restart: always
+    environment:
+      - NODE_ENV=production
+      - SOLR_HOST=solr
+      - SOLR_CORE=olam
+      - BASE_ASSETS=${BASE_ASSETS:-a/}
+      - BASE_STATIC=${BASE_STATIC:-s/}
+      - GA_TRACKING
+    volumes:
+      - ./data:/data:rw
+
+  solr:
+    image: solr:8
+    expose:
+      - "8983"
+    restart: always
+    environment:
+      - SOLR_HEAP
+    volumes:
+      - solr_data:/var/solr:rw
+      - ./solr/config:/opt/solr/server/solr/configsets/myconfig:ro
+      - ./solr/hebmorph:/opt/hebmorph:ro
+    command:
+      - solr-precreate
+      - olam
+      - /opt/solr/server/solr/configsets/myconfig
+
+  nginx:
+    build: ./nginx
+    ports:
+      - "80:80"
+      - "443:443"
+      #- "8080:80"
+    links:
+      - webapp
+    restart: always
+    environment:
+      - LETSENCRYPT_DOMAINS
+    volumes:
+      - nginx_cache:/cache:rw
+      - letsencrypt_certs:/etc/letsencrypt:rw
+      - ./www:/usr/share/nginx/html:ro
+      - ./data:/data:ro
+
+volumes:
+  solr_data:
+  letsencrypt_certs:
+  nginx_cache:

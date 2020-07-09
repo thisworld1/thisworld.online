@@ -1,0 +1,10 @@
+extend layout
+
+append vars
+  - title = 'מונחים פופולריים'
+  - footer_links = false
+
+block content
+  .container
+    h1.mb-5= title
+    +terms_cloud(term_categories, false, 2.5)

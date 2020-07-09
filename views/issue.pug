@@ -1,0 +1,68 @@
+extend layout
+
+append vars
+  - title = `גליון #${issue.issue_num} - ${issue.date_he}${show_gallery ? ' - תצוגת גלרייה' : ''}`
+  - view_class = show_gallery ? 'grid-view' : 'text-view'
+  - meta_img = issue.coverpage
+  - meta_desc = `גליון #${issue.issue_num} מתאריך ${issue.date_he}`
+
+block content
+  .issue(class=view_class, itemscope, itemtype="http://schema.org/CreativeWork")
+
+    header: .container
+      h1 גליון #{issue.issue_num}
+        = ' '
+        small.text-muted(itemprop='datePublished', content=issue.date) מתאריך #{issue.date_he}
+
+      .controls.my-3
+        a.btn.btn-primary.btn-lg.mb-2(href=issue.pdf) הצג PDF
+        = ' '
+        if show_gallery
+          a.btn.btn-info.btn-lg.mb-2(href=issue.href) מעבר לתצוגת טקסט
+        else
+          a.btn.btn-info.btn-lg.mb-2(href=`${issue.href}/gallery`) מעבר לתצוגת תמונות
+        = ' '
+        a.btn.btn-secondary.btn-lg.mb-2(href=issue.year) עוד משנת #{issue.year}
+
+    if show_gallery
+      .container: .row.thumbnails.page-thumbnails
+        for page in issue.pages
+          .col-lg-3.col-md-4.col-sm-6.mb-4.enlarge-container
+            a.d-block.enlarge.mb-2(href=page.image)
+              img(src=page.thumbnail, alt=makeAltText.page(page, issue), loading='lazy')
+
+            .links.d-flex.justify-content-between
+              span עמוד #{ page.page_num }
+              span
+                a(href=page.href) טקסט
+                != ' &middot; '
+                a(href=page.image) תמונה
+                != ' &middot; '
+                a(href=page.pdf) PDF
+
+    else
+      .container
+        each page, i in issue.pages
+          - prev_page = issue.pages[i-1]
+          - next_page = issue.pages[i+1]
+
+          .row.issue-page(data-page=page.page_num)
+            .anchor(id=`p${page.page_num}`)
+            .col-lg-4.col-md-6.pt-4
+              .page-info.enlarge-container
+                h3.mb-3
+                  if prev_page
+                    a.small.text-muted(href=prev_page.href): +arrow_right_icon
+                    = ' '
+                  | עמוד #{page.page_num}
+                  if next_page
+                    = ' '
+                    a.small.text-muted(href=next_page.href): +arrow_left_icon
+                a.btn.btn-secondary(href=page.pdf) פתח כ-PDF
+                =' '
+                a.btn.btn-secondary(href=page.image) פתח כתמונה
+                a.d-block.enlarge.mt-3(href=page.image)
+                  img.thumbnail(src=page.thumbnail, alt=makeAltText.page(page, issue), loading='lazy')
+
+            .col-lg-8.col-md-6.pt-4
+              != formatPageText(page.page_content)
