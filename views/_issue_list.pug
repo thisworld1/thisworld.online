@@ -1,0 +1,17 @@
+.row.thumbnails.issue-thumbnails
+  for issue in issues
+    .col-lg-3.col-md-4.col-sm-6.mb-4.enlarge-container
+      a.d-block.enlarge.mb-2(href=`${issue.href}/gallery`)
+        img(src=(show_backpage?issue.backpage:issue.coverpage), alt=makeAltText.issue(issue), loading='lazy')
+
+      p.links.d-flex.justify-content-between.mb-0(href=issue.href)
+        span גליון #{issue.issue_num}
+        = ' '
+        span #{issue.date_he}
+
+      .links.d-flex.justify-content-between
+        a(href=issue.href) טקסט
+        != ' &middot; '
+        a(href=`${issue.href}/gallery`) תמונות
+        != ' &middot; '
+        a(href=issue.pdf) PDF

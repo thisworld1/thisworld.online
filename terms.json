@@ -1,0 +1,1648 @@
+[
+  {
+    "label": "או\"ם",
+    "query": "או\"ם",
+    "category": "גופים וארגונים",
+    "num_results": 993
+  },
+  {
+    "label": "אצ\"ל",
+    "query": "אצ\"ל",
+    "category": "גופים וארגונים",
+    "num_results": 1205
+  },
+  {
+    "label": "כח חדש",
+    "query": "\"כח חדש\"",
+    "category": "גופים וארגונים",
+    "num_results": 25
+  },
+  {
+    "label": "הכנסת",
+    "query": "הכנסת",
+    "category": "גופים וארגונים",
+    "num_results": 32483
+  },
+  {
+    "label": "הליכוד",
+    "query": "הליכוד",
+    "category": "גופים וארגונים",
+    "num_results": 6884
+  },
+  {
+    "label": "הממסד",
+    "query": "הממסד",
+    "category": "גופים וארגונים",
+    "num_results": 3686
+  },
+  {
+    "label": "המערך",
+    "query": "המערך",
+    "category": "גופים וארגונים",
+    "num_results": 9532
+  },
+  {
+    "label": "השב\"כ",
+    "query": "השב\"כ",
+    "category": "גופים וארגונים",
+    "num_results": 303
+  },
+  {
+    "label": "הפנתרים השחורים",
+    "query": "\"הפנתרים השחורים\"",
+    "category": "גופים וארגונים",
+    "num_results": 350
+  },
+  {
+    "label": "הרשימה המתקדמת לשלום",
+    "query": "\"הרשימה המתקדמת לשלום\"",
+    "category": "גופים וארגונים",
+    "num_results": 188
+  },
+  {
+    "label": "ועדת אגרנט",
+    "query": "\"ועדת אגרנט\"",
+    "category": "גופים וארגונים",
+    "num_results": 242
+  },
+  {
+    "label": "יומני כרמל",
+    "query": "\"יומני כרמל\"",
+    "category": "גופים וארגונים",
+    "num_results": 62
+  },
+  {
+    "label": "לח\"י",
+    "query": "לח\"י",
+    "category": "גופים וארגונים",
+    "num_results": 745
+  },
+  {
+    "label": "מנגנון החושך",
+    "query": "\"מנגנון החושך\"",
+    "category": "גופים וארגונים",
+    "num_results": 401
+  },
+  {
+    "label": "מפא\"י",
+    "query": "מפא\"י",
+    "category": "גופים וארגונים",
+    "num_results": 5082
+  },
+  {
+    "label": "מפ\"ם",
+    "query": "מפ\"ם",
+    "category": "גופים וארגונים",
+    "num_results": 3401
+  },
+  {
+    "label": "מק\"י",
+    "query": "מק\"י",
+    "category": "גופים וארגונים",
+    "num_results": 1162
+  },
+  {
+    "label": "ש.ב.",
+    "query": "ש.ב.",
+    "category": "גופים וארגונים",
+    "num_results": 170
+  },
+  {
+    "label": "שועלי שמשון",
+    "query": "\"שועלי שמשון\"",
+    "category": "גופים וארגונים",
+    "num_results": 163
+  },
+  {
+    "label": "שין בית",
+    "query": "\"שין בית\"",
+    "category": "גופים וארגונים",
+    "num_results": 551
+  },
+  {
+    "label": "של\"י",
+    "query": "של\"י",
+    "category": "גופים וארגונים",
+    "num_results": 467
+  },
+  {
+    "label": "ר\"צ",
+    "query": "ר\"צ",
+    "category": "גופים וארגונים",
+    "num_results": 164,
+    "home": false
+  },
+  {
+    "label": "אבא אבן",
+    "query": "\"אבא אבן\"",
+    "category": "אנשים",
+    "num_results": 1787
+  },
+  {
+    "label": "אבא חושי",
+    "query": "\"אבא חושי\"",
+    "category": "אנשים",
+    "num_results": 637
+  },
+  {
+    "label": "אהוד אולמרט",
+    "query": "\"אהוד אולמרט\"",
+    "category": "אנשים",
+    "num_results": 371
+  },
+  {
+    "label": "אהרון אבו חצירא",
+    "query": "\"אהרון אבו חצירא\"",
+    "category": "אנשים",
+    "num_results": 382
+  },
+  {
+    "label": "אהרון בכר",
+    "query": "\"אהרון בכר\"",
+    "category": "אנשים",
+    "num_results": 71,
+    "home": false
+  },
+  {
+    "label": "אודי אדיב",
+    "query": "\"אודי אדיב\"",
+    "category": "אנשים",
+    "num_results": 96
+  },
+  {
+    "label": "אורי אלוני",
+    "query": "\"אורי אלוני\"",
+    "category": "אנשים",
+    "num_results": 60,
+    "home": false
+  },
+  {
+    "label": "אורי גלר",
+    "query": "\"אורי גלר\"",
+    "category": "אנשים",
+    "num_results": 129
+  },
+  {
+    "label": "אורי דן",
+    "query": "\"אורי דן\"",
+    "category": "אנשים",
+    "num_results": 318
+  },
+  {
+    "label": "אייבי נתן",
+    "query": "\"אייבי נתן\"",
+    "category": "אנשים",
+    "num_results": 642
+  },
+  {
+    "label": "אייכמן",
+    "query": "אייכמן",
+    "category": "אנשים",
+    "num_results": 909
+  },
+  {
+    "label": "איסר הראל",
+    "query": "\"איסר הראל\"",
+    "category": "אנשים",
+    "num_results": 337
+  },
+  {
+    "label": "איתן רוב",
+    "query": "\"איתן רוב\"",
+    "category": "אנשים",
+    "num_results": 3,
+    "home": false
+  },
+  {
+    "label": "אלי לנדאו",
+    "query": "\"אלי לנדאו\"",
+    "category": "אנשים",
+    "num_results": 224
+  },
+  {
+    "label": "אלי תבור",
+    "query": "\"אלי תבור\"",
+    "category": "אנשים",
+    "num_results": 606
+  },
+  {
+    "label": "אלכסנדר זאובר",
+    "query": "\"אלכסנדר זאובר\"",
+    "category": "אנשים",
+    "num_results": 8,
+    "home": false
+  },
+  {
+    "label": "אמנון זכרוני",
+    "query": "\"אמנון זכרוני\"",
+    "category": "אנשים",
+    "num_results": 671
+  },
+  {
+    "label": "אסי דיין",
+    "query": "\"אסי דיין\"",
+    "category": "אנשים",
+    "num_results": 282
+  },
+  {
+    "label": "אפרים סידון",
+    "query": "\"אפרים סידון\"",
+    "category": "אנשים",
+    "num_results": 174
+  },
+  {
+    "label": "אריאל שרון",
+    "query": "\"אריאל שרון\"",
+    "category": "אנשים",
+    "num_results": 2039
+  },
+  {
+    "label": "אריה דרעי",
+    "query": "\"אריה דרעי\"",
+    "category": "אנשים",
+    "num_results": 68
+  },
+  {
+    "label": "אריק אינשטיין",
+    "query": "\"אריק אינשטיין\"",
+    "category": "אנשים",
+    "num_results": 406
+  },
+  {
+    "label": "אריק לביא",
+    "query": "\"אריק לביא\"",
+    "category": "אנשים",
+    "num_results": 381
+  },
+  {
+    "label": "אריק שרון",
+    "query": "\"אריק שרון\"",
+    "category": "אנשים",
+    "num_results": 1738
+  },
+  {
+    "label": "אשר ידלין",
+    "query": "\"אשר ידלין\"",
+    "category": "אנשים",
+    "num_results": 431
+  },
+  {
+    "label": "ב. מיכאל",
+    "query": "\"ב. מיכאל\"",
+    "category": "אנשים",
+    "num_results": 150
+  },
+  {
+    "label": "בן גוריון",
+    "query": "\"בן גוריון\"",
+    "category": "אנשים",
+    "num_results": 7013
+  },
+  {
+    "label": "גאולה כהן",
+    "query": "\"גאולה כהן\"",
+    "category": "אנשים",
+    "num_results": 874
+  },
+  {
+    "label": "גדעון האוזנר",
+    "query": "\"גדעון האוזנר\"",
+    "category": "אנשים",
+    "num_results": 241
+  },
+  {
+    "label": "ג'ונסון",
+    "query": "ג'ונסון",
+    "category": "אנשים",
+    "num_results": 609
+  },
+  {
+    "label": "גולדה מאיר",
+    "query": "\"גולדה מאיר\"",
+    "category": "אנשים",
+    "num_results": 3115
+  },
+  {
+    "label": "גילה אלמגור",
+    "query": "\"גילה אלמגור\"",
+    "category": "אנשים",
+    "num_results": 459
+  },
+  {
+    "label": "דוד לוי",
+    "query": "\"דוד לוי\"",
+    "category": "אנשים",
+    "num_results": 1297
+  },
+  {
+    "label": "דן בן אמוץ",
+    "query": "\"דן בן אמוץ\"",
+    "category": "אנשים",
+    "num_results": 894
+  },
+  {
+    "label": "דן שומרון",
+    "query": "\"דן שומרון\"",
+    "category": "אנשים",
+    "num_results": 168
+  },
+  {
+    "label": "דודו גבע",
+    "query": "\"דודו גבע\"",
+    "category": "אנשים",
+    "num_results": 23
+  },
+  {
+    "label": "דויד הורוביץ",
+    "query": "\"דויד הורוביץ\"",
+    "category": "אנשים",
+    "num_results": 210
+  },
+  {
+    "label": "דמיאניוק",
+    "query": "דמיאניוק",
+    "category": "אנשים",
+    "num_results": 238
+  },
+  {
+    "label": "דן שילון",
+    "query": "\"דן שילון\"",
+    "category": "אנשים",
+    "num_results": 359
+  },
+  {
+    "label": "היטלר",
+    "query": "היטלר",
+    "category": "אנשים",
+    "num_results": 2087
+  },
+  {
+    "label": "המלך חוסיין",
+    "query": "\"המלך חוסיין\"",
+    "category": "אנשים",
+    "num_results": 893
+  },
+  {
+    "label": "הרצל אביטן",
+    "query": "\"הרצל אביטן\"",
+    "category": "אנשים",
+    "num_results": 96
+  },
+  {
+    "label": "זאב ז'בוטינסקי",
+    "query": "\"זאב ז'בוטינסקי\"",
+    "category": "אנשים",
+    "num_results": 521
+  },
+  {
+    "label": "זבולון המר",
+    "query": "\"זבולון המר\"",
+    "category": "אנשים",
+    "num_results": 743
+  },
+  {
+    "label": "זוהר ארגוב",
+    "query": "\"זוהר ארגוב\"",
+    "category": "אנשים",
+    "num_results": 57
+  },
+  {
+    "label": "חווה יערי",
+    "query": "\"חווה יערי\"",
+    "category": "אנשים",
+    "num_results": 195
+  },
+  {
+    "label": "חומייני",
+    "query": "חומייני",
+    "category": "אנשים",
+    "num_results": 395
+  },
+  {
+    "label": "חיים בר לב",
+    "query": "\"חיים בר לב\"",
+    "category": "אנשים",
+    "num_results": 753
+  },
+  {
+    "label": "חיים ויצמן",
+    "query": "\"חיים ויצמן\"",
+    "category": "אנשים",
+    "num_results": 462
+  },
+  {
+    "label": "חיים חפר",
+    "query": "\"חיים חפר\"",
+    "category": "אנשים",
+    "num_results": 549
+  },
+  {
+    "label": "חיים יבין",
+    "query": "\"חיים יבין\"",
+    "category": "אנשים",
+    "num_results": 546
+  },
+  {
+    "label": "חיים לסקוב",
+    "query": "\"חיים לסקוב\"",
+    "category": "אנשים",
+    "num_results": 307
+  },
+  {
+    "label": "חיים קופמן",
+    "query": "\"חיים קופמן\"",
+    "category": "אנשים",
+    "num_results": 97
+  },
+  {
+    "label": "חנוך מרמרי",
+    "query": "\"חנוך מרמרי\"",
+    "category": "אנשים",
+    "num_results": 167
+  },
+  {
+    "label": "טדי קולק",
+    "query": "\"טדי קולק\"",
+    "category": "אנשים",
+    "num_results": 706
+  },
+  {
+    "label": "עראפת",
+    "query": "ערפאת | עראפאת | עראפת",
+    "category": "אנשים",
+    "num_results": 1886
+  },
+  {
+    "label": "יגאל אלון",
+    "query": "\"יגאל אלון\"",
+    "category": "אנשים",
+    "num_results": 1916
+  },
+  {
+    "label": "יגאל הורביץ",
+    "query": "\"יגאל הורביץ\"",
+    "category": "אנשים",
+    "num_results": 391
+  },
+  {
+    "label": "יגאל ידין",
+    "query": "\"יגאל ידין\"",
+    "category": "אנשים",
+    "num_results": 470
+  },
+  {
+    "label": "יגאל לביב",
+    "query": "\"יגאל לביב\"",
+    "category": "אנשים",
+    "num_results": 527
+  },
+  {
+    "label": "יגאל מוסינזון",
+    "query": "\"יגאל מוסינזון\"",
+    "category": "אנשים",
+    "num_results": 189
+  },
+  {
+    "label": "ידלין",
+    "query": "ידלין",
+    "category": "אנשים",
+    "num_results": 798
+  },
+  {
+    "label": "יואל ברנד",
+    "query": "\"יואל ברנד\"",
+    "category": "אנשים",
+    "num_results": 23,
+    "home": false
+  },
+  {
+    "label": "יוסי שריד",
+    "query": "\"יוסי שריד\"",
+    "category": "אנשים",
+    "num_results": 768
+  },
+  {
+    "label": "יוסף שפרינצק",
+    "query": "\"יוסף שפרינצק\"",
+    "category": "אנשים",
+    "num_results": 141
+  },
+  {
+    "label": "יורם שפטל",
+    "query": "\"יורם שפטל\"",
+    "category": "אנשים",
+    "num_results": 103
+  },
+  {
+    "label": "יעל דיין",
+    "query": "\"יעל דיין\"",
+    "category": "אנשים",
+    "num_results": 325
+  },
+  {
+    "label": "יעקב מרידור",
+    "query": "\"יעקב מרידור\"",
+    "category": "אנשים",
+    "num_results": 167
+  },
+  {
+    "label": "יפה ירקוני",
+    "query": "\"יפה ירקוני\"",
+    "category": "אנשים",
+    "num_results": 354
+  },
+  {
+    "label": "יצחק בן צבי",
+    "query": "\"יצחק בן צבי\"",
+    "category": "אנשים",
+    "num_results": 301
+  },
+  {
+    "label": "יצחק מודעי",
+    "query": "\"יצחק מודעי\"",
+    "category": "אנשים",
+    "num_results": 1003
+  },
+  {
+    "label": "יצחק מרדכי",
+    "query": "\"יצחק מרדכי\"",
+    "category": "אנשים",
+    "num_results": 65,
+    "home": false
+  },
+  {
+    "label": "יצחק נבון",
+    "query": "\"יצחק נבון\"",
+    "category": "אנשים",
+    "num_results": 947
+  },
+  {
+    "label": "יצחק רבין",
+    "query": "\"יצחק רבין\"",
+    "category": "אנשים",
+    "num_results": 2141
+  },
+  {
+    "label": "יצחק שדה",
+    "query": "\"יצחק שדה\"",
+    "category": "אנשים",
+    "num_results": 483
+  },
+  {
+    "label": "יצחק שמיר",
+    "query": "\"יצחק שמיר\"",
+    "category": "אנשים",
+    "num_results": 1929
+  },
+  {
+    "label": "ישעיהו ליבוביץ",
+    "query": "\"ישעיהו ליבוביץ\"",
+    "category": "אנשים",
+    "num_results": 127
+  },
+  {
+    "label": "ישראל טל",
+    "query": "\"ישראל טל\"",
+    "category": "אנשים",
+    "num_results": 193
+  },
+  {
+    "label": "ישראל קיסר",
+    "query": "\"ישראל קיסר\"",
+    "category": "אנשים",
+    "num_results": 384
+  },
+  {
+    "label": "ישראל קסטנר",
+    "query": "\"ישראל קסטנר\"",
+    "category": "אנשים",
+    "num_results": 139
+  },
+  {
+    "label": "לבון",
+    "query": "לבון",
+    "category": "אנשים",
+    "num_results": 2083
+  },
+  {
+    "label": "לוי אשכול",
+    "query": "\"לוי אשכול\"",
+    "category": "אנשים",
+    "num_results": 2019
+  },
+  {
+    "label": "מאיר כהנא",
+    "query": "\"מאיר כהנא\"",
+    "category": "אנשים",
+    "num_results": 707
+  },
+  {
+    "label": "מאיר שטרית",
+    "query": "\"מאיר שטרית\"",
+    "category": "אנשים",
+    "num_results": 35
+  },
+  {
+    "label": "מוטה גור",
+    "query": "\"מוטה גור\"",
+    "category": "אנשים",
+    "num_results": 628
+  },
+  {
+    "label": "מוטי הוד",
+    "query": "\"מוטי הוד\"",
+    "category": "אנשים",
+    "num_results": 166
+  },
+  {
+    "label": "מיכאל פירון",
+    "query": "\"מיכאל פירון\"",
+    "category": "אנשים",
+    "num_results": 26
+  },
+  {
+    "label": "מיצנע",
+    "query": "מיצנע",
+    "category": "אנשים",
+    "num_results": 957
+  },
+  {
+    "label": "מלכיאל גרינוולד",
+    "query": "\"מלכיאל גרינוולד\"",
+    "category": "אנשים",
+    "num_results": 40,
+    "home": false
+  },
+  {
+    "label": "מנחם בגין",
+    "query": "\"מנחם בגין\"",
+    "category": "אנשים",
+    "num_results": 5128
+  },
+  {
+    "label": "מנחם שיזף",
+    "query": "\"מנחם שיזף\"",
+    "category": "אנשים",
+    "num_results": 8,
+    "home": false
+  },
+  {
+    "label": "משה ארנס",
+    "query": "\"משה ארנס\"",
+    "category": "אנשים",
+    "num_results": 520
+  },
+  {
+    "label": "משה דיין",
+    "query": "\"משה דיין\"",
+    "category": "אנשים",
+    "num_results": 5332
+  },
+  {
+    "label": "משה לוי",
+    "query": "\"משה לוי\"",
+    "category": "אנשים",
+    "num_results": 342
+  },
+  {
+    "label": "משה קרוי",
+    "query": "\"משה קרוי\"",
+    "category": "אנשים",
+    "num_results": 70
+  },
+  {
+    "label": "מתי כספי",
+    "query": "\"מתי כספי\"",
+    "category": "אנשים",
+    "num_results": 236
+  },
+  {
+    "label": "מתי פלד",
+    "query": "\"מתי פלד\"",
+    "category": "אנשים",
+    "num_results": 479
+  },
+  {
+    "label": "נאצר",
+    "query": "נאצר",
+    "category": "אנשים",
+    "num_results": 2710
+  },
+  {
+    "label": "ניכסון",
+    "query": "ניכסון | ניקסון",
+    "category": "אנשים",
+    "num_results": 769
+  },
+  {
+    "label": "נעים גלעדי",
+    "query": "\"נעים גלעדי\"",
+    "category": "אנשים",
+    "num_results": 61,
+    "home": false
+  },
+  {
+    "label": "נתן זהבי",
+    "query": "\"נתן זהבי\"",
+    "category": "אנשים",
+    "num_results": 52
+  },
+  {
+    "label": "סאדאת",
+    "query": "סאדאת",
+    "category": "אנשים",
+    "num_results": 2158
+  },
+  {
+    "label": "סטאלין",
+    "query": "סטאלין",
+    "category": "אנשים",
+    "num_results": 908
+  },
+  {
+    "label": "סילבי קשת",
+    "query": "\"סילבי קשת\"",
+    "category": "אנשים",
+    "num_results": 257
+  },
+  {
+    "label": "סעיד חמאמי",
+    "query": "\"סעיד חמאמי\"",
+    "category": "אנשים",
+    "num_results": 160
+  },
+  {
+    "label": "עובדיה יוסף",
+    "query": "\"עובדיה יוסף\"",
+    "category": "אנשים",
+    "num_results": 224
+  },
+  {
+    "label": "עקיבא נוף",
+    "query": "\"עקיבא נוף\"",
+    "category": "אנשים",
+    "num_results": 213
+  },
+  {
+    "label": "עזר ויצמן",
+    "query": "\"עזר ויצמן\"",
+    "category": "אנשים",
+    "num_results": 2108
+  },
+  {
+    "label": "עמוס בן גוריון",
+    "query": "\"עמוס בן גוריון\"",
+    "category": "אנשים",
+    "num_results": 358
+  },
+  {
+    "label": "עמוס עוז",
+    "query": "\"עמוס עוז\"",
+    "category": "אנשים",
+    "num_results": 317
+  },
+  {
+    "label": "עמוס חכם",
+    "query": "\"עמוס חכם\"",
+    "category": "אנשים",
+    "num_results": 44
+  },
+  {
+    "label": "עמוס קינן",
+    "query": "\"עמוס קינן\"",
+    "category": "אנשים",
+    "num_results": 749
+  },
+  {
+    "label": "עמירם ניר",
+    "query": "\"עמירם ניר\"",
+    "category": "אנשים",
+    "num_results": 263
+  },
+  {
+    "label": "עיצאם סרטאווי",
+    "query": "\"עיצאם סרטאווי\"",
+    "category": "אנשים",
+    "num_results": 166
+  },
+  {
+    "label": "ענת סרגוסטי",
+    "query": "\"ענת סרגוסטי\"",
+    "category": "אנשים",
+    "num_results": 410
+  },
+  {
+    "label": "פולארד",
+    "query": "פולארד",
+    "category": "אנשים",
+    "num_results": 191
+  },
+  {
+    "label": "פלאטו שרון",
+    "query": "\"פלאטו שרון\"",
+    "category": "אנשים",
+    "num_results": 535
+  },
+  {
+    "label": "פנחס לבון",
+    "query": "\"פנחס לבון\"",
+    "category": "אנשים",
+    "num_results": 685
+  },
+  {
+    "label": "פנחס ספיר",
+    "query": "\"פנחס ספיר\"",
+    "category": "אנשים",
+    "num_results": 1650
+  },
+  {
+    "label": "פסח גרופר",
+    "query": "\"פסח גרופר\"",
+    "category": "אנשים",
+    "num_results": 208
+  },
+  {
+    "label": "צבי גור",
+    "query": "\"צבי גור\"",
+    "category": "אנשים",
+    "num_results": 173
+  },
+  {
+    "label": "קובי ניב",
+    "query": "\"קובי ניב\"",
+    "category": "אנשים",
+    "num_results": 248
+  },
+  {
+    "label": "קנדי",
+    "query": "קנדי",
+    "category": "אנשים",
+    "num_results": 3191
+  },
+  {
+    "label": "קסטנר",
+    "query": "קסטנר",
+    "category": "אנשים",
+    "num_results": 728
+  },
+  {
+    "label": "ק. צטניק",
+    "query": "\"ק. צטניק\"",
+    "category": "אנשים",
+    "num_results": 47
+  },
+  {
+    "label": "קיסינג'ר",
+    "query": "קיסינג'ר",
+    "category": "אנשים",
+    "num_results": 804
+  },
+  {
+    "label": "רבקה זהר",
+    "query": "\"רבקה זהר\"",
+    "category": "אנשים",
+    "num_results": 76
+  },
+  {
+    "label": "רותי ורד",
+    "query": "\"רותי ורד\"",
+    "category": "אנשים",
+    "num_results": 181
+  },
+  {
+    "label": "רחבעם זאבי",
+    "query": "\"רחבעם זאבי\"",
+    "category": "אנשים",
+    "num_results": 116
+  },
+  {
+    "label": "רחל אבנרי",
+    "query": "\"רחל אבנרי\"",
+    "category": "אנשים",
+    "num_results": 77
+  },
+  {
+    "label": "רפאל איתן",
+    "query": "\"רפאל איתן\"",
+    "category": "אנשים",
+    "num_results": 578
+  },
+  {
+    "label": "רפי גינת",
+    "query": "\"רפי גינת\"",
+    "category": "אנשים",
+    "num_results": 168
+  },
+  {
+    "label": "רפי נלסון",
+    "query": "\"רפי נלסון\"",
+    "category": "אנשים",
+    "num_results": 309
+  },
+  {
+    "label": "שושיק שני",
+    "query": "\"שושיק שני\"",
+    "category": "אנשים",
+    "num_results": 120
+  },
+  {
+    "label": "שושנה דמארי",
+    "query": "\"שושנה דמארי\"",
+    "category": "אנשים",
+    "num_results": 226
+  },
+  {
+    "label": "שייע גלזר",
+    "query": "\"שייע גלזר\"",
+    "category": "אנשים",
+    "num_results": 295
+  },
+  {
+    "label": "שלום כהן",
+    "query": "\"שלום כהן\"",
+    "category": "אנשים",
+    "num_results": 696
+  },
+  {
+    "label": "שמואל בק",
+    "query": "\"שמואל בק\"",
+    "category": "אנשים",
+    "num_results": 114
+  },
+  {
+    "label": "שמואל תמיר",
+    "query": "\"שמואל תמיר\"",
+    "category": "אנשים",
+    "num_results": 1343
+  },
+  {
+    "label": "שמחה ארליך",
+    "query": "\"שמחה ארליך\"",
+    "category": "אנשים",
+    "num_results": 737
+  },
+  {
+    "label": "שמעון פרס",
+    "query": "\"שמעון פרס\"",
+    "category": "אנשים",
+    "num_results": 3987
+  },
+  {
+    "label": "שרית ישי",
+    "query": "\"שרית ישי\"",
+    "category": "אנשים",
+    "num_results": 353
+  },
+  {
+    "label": "איראן",
+    "query": "איראן",
+    "category": "כללי",
+    "num_results": 1796
+  },
+  {
+    "label": "בלי מורא, בלי משוא פנים",
+    "query": "\"בלי מורא, בלי משוא פנים\"",
+    "category": "כללי",
+    "num_results": 173
+  },
+  {
+    "label": "בעיית הפליטים",
+    "query": "\"בעיית הפליטים\"",
+    "category": "כללי",
+    "num_results": 447
+  },
+  {
+    "label": "בשדות פלשת",
+    "query": "\"בשדות פלשת\"",
+    "category": "כללי",
+    "num_results": 101
+  },
+  {
+    "label": "גרמניה",
+    "query": "גרמניה",
+    "category": "כללי",
+    "num_results": 13887
+  },
+  {
+    "label": "דופקים את השחורים",
+    "query": "\"דופקים את השחורים\"",
+    "category": "כללי",
+    "num_results": 71
+  },
+  {
+    "label": "הומוסקסואליות",
+    "query": "הומוסקסואליות",
+    "category": "כללי",
+    "num_results": 172
+  },
+  {
+    "label": "המרחב השמי",
+    "query": "\"המרחב השמי\"",
+    "category": "כללי",
+    "num_results": 306
+  },
+  {
+    "label": "הנדון",
+    "query": "הנדון",
+    "category": "כללי",
+    "num_results": 6488
+  },
+  {
+    "label": "הנובר",
+    "query": "הנובר",
+    "category": "כללי",
+    "num_results": 1006
+  },
+  {
+    "label": "העם הפלסטיני",
+    "query": "\"העם הפלסטיני\"",
+    "category": "כללי",
+    "num_results": 1896
+  },
+  {
+    "label": "הפליטים הפלסטינים",
+    "query": "\"הפליטים הפלסטינים\"",
+    "category": "כללי",
+    "num_results": 344
+  },
+  {
+    "label": "הצד השני של המטבע",
+    "query": "\"הצד השני של המטבע\"",
+    "category": "כללי",
+    "num_results": 238
+  },
+  {
+    "label": "הצנזורה",
+    "query": "הצנזורה",
+    "category": "כללי",
+    "num_results": 2056
+  },
+  {
+    "label": "השבועון המסויים",
+    "query": "\"השבועון המסויים\"",
+    "category": "כללי",
+    "num_results": 369
+  },
+  {
+    "label": "התנחלויות",
+    "query": "התנחלויות",
+    "category": "כללי",
+    "num_results": 2261
+  },
+  {
+    "label": "ואדי סליב",
+    "query": "\"ואדי סליב\"",
+    "category": "כללי",
+    "num_results": 83
+  },
+  {
+    "label": "ורסאי",
+    "query": "ורסאי",
+    "category": "כללי",
+    "num_results": 29
+  },
+  {
+    "label": "זו ארץ זו",
+    "query": "\"זו ארץ זו\"",
+    "category": "כללי",
+    "num_results": 14
+  },
+  {
+    "label": "חללית",
+    "query": "חללית",
+    "category": "כללי",
+    "num_results": 906
+  },
+  {
+    "label": "ילדי תימן",
+    "query": "\"ילדי תימן\"",
+    "category": "התרחשויות ואירועים",
+    "num_results": 40
+  },
+  {
+    "label": "ירדן",
+    "query": "ירדן",
+    "category": "כללי",
+    "num_results": 6329
+  },
+  {
+    "label": "ירושלים של זהב",
+    "query": "\"ירושלים של זהב\"",
+    "category": "כללי",
+    "num_results": 78
+  },
+  {
+    "label": "כפר קאסם",
+    "query": "\"כפר קאסם\"",
+    "category": "כללי",
+    "num_results": 397
+  },
+  {
+    "label": "מחדל",
+    "query": "מחדל",
+    "category": "כללי",
+    "num_results": 7439
+  },
+  {
+    "label": "מין",
+    "query": "מין",
+    "category": "כללי",
+    "num_results": 58640
+  },
+  {
+    "label": "מלך מרוקו",
+    "query": "\"מלך מרוקו\"",
+    "category": "כללי",
+    "num_results": 108
+  },
+  {
+    "label": "ממשלה עולמית",
+    "query": "\"ממשלה עולמית\"",
+    "category": "כללי",
+    "num_results": 29
+  },
+  {
+    "label": "מסתננים",
+    "query": "מסתננים",
+    "category": "כללי",
+    "num_results": 1061
+  },
+  {
+    "label": "מצרים",
+    "query": "מצרים",
+    "category": "כללי",
+    "num_results": 50048
+  },
+  {
+    "label": "משפט אייכמן",
+    "query": "\"משפט אייכמן\"",
+    "category": "כללי",
+    "num_results": 272
+  },
+  {
+    "label": "נאצים",
+    "query": "נאצים | נאציזם",
+    "category": "כללי",
+    "num_results": 4856
+  },
+  {
+    "label": "ניקוי ראש",
+    "query": "\"ניקוי ראש\"",
+    "category": "כללי",
+    "num_results": 221
+  },
+  {
+    "label": "נערת המים",
+    "query": "\"נערת המים\"",
+    "category": "כללי",
+    "num_results": 45
+  },
+  {
+    "label": "סוריה",
+    "query": "סוריה",
+    "category": "כללי",
+    "num_results": 5375
+  },
+  {
+    "label": "סמים",
+    "query": "סמים",
+    "category": "כללי",
+    "num_results": 11225
+  },
+  {
+    "label": "ספרדים",
+    "query": "ספרדים",
+    "category": "כללי",
+    "num_results": 5132
+  },
+  {
+    "label": "עיראק",
+    "query": "עיראק",
+    "category": "כללי",
+    "num_results": 3130
+  },
+  {
+    "label": "עיראק סואידן",
+    "query": "\"עיראק סואידן\"",
+    "category": "כללי",
+    "num_results": 14,
+    "home": false
+  },
+  {
+    "label": "עירק",
+    "query": "עירק",
+    "category": "כללי",
+    "num_results": 1777
+  },
+  {
+    "label": "פגישות עם אש\"ף",
+    "query": "\"פגישות עם אש\"ף\"",
+    "category": "כללי",
+    "num_results": 15
+  },
+  {
+    "label": "פעולות תגמול",
+    "query": "\"פעולות תגמול\"",
+    "category": "כללי",
+    "num_results": 610
+  },
+  {
+    "label": "פצצת אטום",
+    "query": "\"פצצת אטום\"",
+    "category": "כללי",
+    "num_results": 285
+  },
+  {
+    "label": "פרוסיה",
+    "query": "פרוסיה",
+    "category": "כללי",
+    "num_results": 5193
+  },
+  {
+    "label": "צלב הקרס",
+    "query": "\"צלב הקרס\"",
+    "category": "כללי",
+    "num_results": 205
+  },
+  {
+    "label": "קומוניסטים",
+    "query": "קומוניסטים",
+    "category": "כללי",
+    "num_results": 4045
+  },
+  {
+    "label": "רחל המרחלת",
+    "query": "\"רחל המרחלת\"",
+    "category": "כללי",
+    "num_results": 415
+  },
+  {
+    "label": "רימון",
+    "query": "רימון",
+    "category": "כללי",
+    "num_results": 2638
+  },
+  {
+    "label": "רכילות",
+    "query": "רכילות",
+    "category": "כללי",
+    "num_results": 2051
+  },
+  {
+    "label": "רצועת עזה",
+    "query": "\"רצועת עזה\"",
+    "category": "כללי",
+    "num_results": 1448
+  },
+  {
+    "label": "שוד עתיקות",
+    "query": "\"שוד עתיקות\"",
+    "category": "כללי",
+    "num_results": 67
+  },
+  {
+    "label": "שחיתויות",
+    "query": "שחיתויות",
+    "category": "כללי",
+    "num_results": 2936
+  },
+  {
+    "label": "שטחים כבושים",
+    "query": "\"שטחים כבושים\"",
+    "category": "כללי",
+    "num_results": 2184
+  },
+  {
+    "label": "שלום עולמי",
+    "query": "\"שלום עולמי\"",
+    "category": "כללי",
+    "num_results": 373
+  },
+  {
+    "label": "תולדות הנאצים",
+    "query": "\"תולדות הנאצים\" | \"תולדות הנאציזם\"",
+    "category": "כללי",
+    "num_results": 7
+  },
+  {
+    "label": "תעלת סואץ",
+    "query": "\"תעלת סואץ\"",
+    "category": "כללי",
+    "num_results": 976
+  },
+  {
+    "label": "הבחירות לכנסת",
+    "query": "\"הבחירות לכנסת\"",
+    "category": "התרחשויות ואירועים",
+    "num_results": 1752
+  },
+  {
+    "label": "החלטה 242",
+    "query": "\"החלטה 242\"",
+    "category": "התרחשויות ואירועים",
+    "num_results": 139
+  },
+  {
+    "label": "החלטה 338",
+    "query": "\"החלטה 338\"",
+    "category": "התרחשויות ואירועים",
+    "num_results": 9,
+    "home": false
+  },
+  {
+    "label": "העסק הביש",
+    "query": "\"העסק הביש\"",
+    "category": "התרחשויות ואירועים",
+    "num_results": 485
+  },
+  {
+    "label": "חוק איסור לשון הרע",
+    "query": "\"חוק איסור לשון הרע\" | \"חוק לשון הרע\"",
+    "category": "התרחשויות ואירועים",
+    "num_results": 396
+  },
+  {
+    "label": "מבצע סיני",
+    "query": "\"מבצע סיני\"",
+    "category": "התרחשויות ואירועים",
+    "num_results": 913
+  },
+  {
+    "label": "מלחמת ההתשה",
+    "query": "\"מלחמת ההתשה\"",
+    "category": "התרחשויות ואירועים",
+    "num_results": 393
+  },
+  {
+    "label": "מלחמת העצמאות",
+    "query": "\"מלחמת העצמאות\"",
+    "category": "התרחשויות ואירועים",
+    "num_results": 1869
+  },
+  {
+    "label": "מלחמת יום כיפור",
+    "query": "\"מלחמת יום כיפור\"",
+    "category": "התרחשויות ואירועים",
+    "num_results": 1757
+  },
+  {
+    "label": "מלחמת לבנון",
+    "query": "\"מלחמת לבנון\"",
+    "category": "התרחשויות ואירועים",
+    "num_results": 651
+  },
+  {
+    "label": "מלחמת שלושים השנה",
+    "query": "\"מלחמת שלושים השנה\"",
+    "category": "התרחשויות ואירועים",
+    "num_results": 32,
+    "home": false
+  },
+  {
+    "label": "מלחמת ששת הימים",
+    "query": "\"מלחמת ששת הימים\"",
+    "category": "התרחשויות ואירועים",
+    "num_results": 2664
+  },
+  {
+    "label": "משפט קסטנר",
+    "query": "\"משפט קסטנר\"",
+    "category": "התרחשויות ואירועים",
+    "num_results": 215
+  },
+  {
+    "label": "פרשת הדולרים",
+    "query": "\"פרשת הדולרים\"",
+    "category": "התרחשויות ואירועים",
+    "num_results": 4,
+    "home": false
+  },
+  {
+    "label": "פרשת כפר קאסם",
+    "query": "\"פרשת כפר קאסם\"",
+    "category": "התרחשויות ואירועים",
+    "num_results": 62
+  },
+  {
+    "label": "פרשת לבון",
+    "query": "\"פרשת לבון\"",
+    "category": "התרחשויות ואירועים",
+    "num_results": 462
+  },
+  {
+    "label": "פרשת קסטנר",
+    "query": "\"פרשת קסטנר\"",
+    "category": "התרחשויות ואירועים",
+    "num_results": 153
+  },
+  {
+    "label": "קו 300",
+    "query": "\"קו 300\"",
+    "category": "התרחשויות ואירועים",
+    "num_results": 77
+  },
+  {
+    "label": "קו בר לב",
+    "query": "\"קו בר לב\"",
+    "category": "התרחשויות ואירועים",
+    "num_results": 222
+  },
+  {
+    "label": "שביתת הימאים",
+    "query": "\"שביתת הימאים\"",
+    "category": "התרחשויות ואירועים",
+    "num_results": 112
+  },
+  {
+    "label": "קול ישראל",
+    "query": "\"קול ישראל\"",
+    "category": "גופים וארגונים",
+    "num_results": 2590
+  },
+  {
+    "label": "המיפלגה הליברלית",
+    "query": "\"המיפלגה הליברלית\"",
+    "category": "גופים וארגונים",
+    "num_results": 1143
+  },
+  {
+    "label": "שני העמים",
+    "query": "\"שני העמים\"",
+    "category": "כללי",
+    "num_results": 2696
+  },
+  {
+    "label": "עולים חדשים",
+    "query": "\"עולים חדשים\"",
+    "category": "כללי",
+    "num_results": 3156
+  },
+  {
+    "label": "יחסי מין",
+    "query": "\"יחסי מין\"",
+    "category": "כללי",
+    "num_results": 3632
+  },
+  {
+    "label": "רשות השידור",
+    "query": "\"רשות השידור\"",
+    "category": "גופים וארגונים",
+    "num_results": 2215
+  },
+  {
+    "label": "יורם ארידור",
+    "query": "\"יורם ארידור\"",
+    "category": "אנשים",
+    "num_results": 632
+  },
+  {
+    "label": "ישראל גלילי",
+    "query": "\"ישראל גלילי\"",
+    "category": "אנשים",
+    "num_results": 665
+  },
+  {
+    "label": "משמר הגבול",
+    "query": "\"משמר הגבול\"",
+    "category": "גופים וארגונים",
+    "num_results": 895
+  },
+  {
+    "label": "רוני מילוא",
+    "query": "\"רוני מילוא\"",
+    "category": "אנשים",
+    "num_results": 542
+  },
+  {
+    "label": "אמנון רובינשטיין",
+    "query": "\"אמנון רובינשטיין\"",
+    "category": "אנשים",
+    "num_results": 513
+  },
+  {
+    "label": "נתן אלתרמן",
+    "query": "\"נתן אלתרמן\"",
+    "category": "אנשים",
+    "num_results": 518
+  },
+  {
+    "label": "גד יעקבי",
+    "query": "\"גד יעקבי\" | \"גד יעקובי\"",
+    "category": "אנשים",
+    "num_results": 621
+  },
+  {
+    "label": "קרטר",
+    "query": "\"קרטר\" | \"קארטר\"",
+    "category": "אנשים",
+    "num_results": 987
+  },
+  {
+    "label": "אברהם שפירא",
+    "query": "\"אברהם שפירא\"",
+    "category": "אנשים",
+    "num_results": 483
+  },
+  {
+    "label": "ההתאחדות לכדורגל",
+    "query": "\"ההתאחדות לכדורגל\"",
+    "category": "גופים וארגונים",
+    "num_results": 624
+  },
+  {
+    "label": "רחוב דיזנגוף",
+    "query": "\"רחוב דיזנגוף\"",
+    "category": "כללי",
+    "num_results": 1197
+  },
+  {
+    "label": "קפה כסית",
+    "query": "\"קפה כסית\"",
+    "category": "גופים וארגונים",
+    "num_results": 191
+  },
+  {
+    "label": "יגאל הורוביץ",
+    "query": "\"יגאל הורוביץ\"",
+    "category": "אנשים",
+    "num_results": 116
+  },
+  {
+    "label": "לובה אליאב",
+    "query": "\"לובה אליאב\"",
+    "category": "אנשים",
+    "num_results": 421
+  },
+  {
+    "label": "שלמה להט",
+    "query": "\"שלמה להט\"",
+    "category": "אנשים",
+    "num_results": 400
+  },
+  {
+    "label": "המדינה הפלסטינית",
+    "query": "\"מדינה פלסטינית\"",
+    "category": "כללי",
+    "num_results": 1680
+  },
+  {
+    "label": "השטחים המוחזקים",
+    "query": "\"השטחים המוחזקים\"",
+    "category": "כללי",
+    "num_results": 1072
+  },
+  {
+    "label": "גוש אמונים",
+    "query": "\"גוש אמונים\"",
+    "category": "גופים וארגונים",
+    "num_results": 1256
+  },
+  {
+    "label": "מלכת המים",
+    "query": "\"מלכת המים\"",
+    "category": "כללי",
+    "num_results": 1372
+  },
+  {
+    "label": "שולמית אלוני",
+    "query": "\"שולמית אלוני\"",
+    "category": "אנשים",
+    "num_results": 861
+  },
+  {
+    "label": "שלום הגליל",
+    "query": "\"שלום הגליל\"",
+    "category": "התרחשויות ואירועים",
+    "num_results": 177
+  },
+  {
+    "label": "חירות",
+    "query": "\"חירות\"",
+    "category": "גופים וארגונים",
+    "num_results": 5410
+  },
+  {
+    "label": "מפלגת העבודה",
+    "query": "\"מפלגת העבודה\"",
+    "category": "גופים וארגונים",
+    "num_results": 3627
+  },
+  {
+    "label": "ש\"ס",
+    "query": "ש\"ס",
+    "category": "גופים וארגונים",
+    "num_results": 238
+  },
+  {
+    "label": "אגודת ישראל",
+    "query": "\"אגודת ישראל\"",
+    "category": "גופים וארגונים",
+    "num_results": 1573
+  },
+  {
+    "label": "המפד\"ל",
+    "query": "המפד\"ל",
+    "category": "גופים וארגונים",
+    "num_results": 2212
+  }
+]

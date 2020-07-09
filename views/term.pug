@@ -1,0 +1,6 @@
+extend search
+
+append vars
+  - title = term.label
+  - meta_desc = `${term.label} - ${results[0] ? getSnippetSummary(results[0].highlight) : 'אין תוצאות'}`
+  - noindex = false

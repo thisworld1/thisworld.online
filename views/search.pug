@@ -1,0 +1,45 @@
+extend layout
+
+append vars
+  - title = `חיפוש: ${ query.q }`
+  - meta_img = results[0] && results[0].thumbnail
+  - meta_desc = `${title} - ${results[0] ? getSnippetSummary(results[0].highlight) : 'אין תוצאות'}`
+  - noindex = true
+
+mixin sortLink(sort, label)
+  if query.sort != sort
+    a(href=query.getUrl(0, sort))= label
+  else
+    = label
+
+block content
+  .container
+    h1.mb-3= title
+    +searchForm(query)
+
+    if results.length == 0
+      h3 לא נמצאו תוצאות
+
+    else
+      h3 נמצאו #{formatNum(paging.total)} תוצאות
+        if paging.total > paging.per_page
+          = ' '
+          span.text-muted.small (מציג #{formatNum(paging.start+1)} עד #{formatNum(paging.start+results.length)})
+
+      p
+        strong מיון לפי:
+        = ' '
+        +sortLink('relevance', 'רלוונטיות')
+        != ' &middot; '
+        +sortLink('oldest', 'ישן קודם')
+        != ' &middot; '
+        +sortLink('newest', 'חדש קודם')
+
+      include _results
+
+      if paging.next != null || paging.prev != null
+        .clearfix.my-3
+          if paging.prev != null
+            a.btn.btn-primary.float-left(href=query.getUrl(paging.prev)) עמוד קודם
+          if paging.next != null
+            a.btn.btn-primary.float-right(href=query.getUrl(paging.next)) עמוד הבא

@@ -1,0 +1,34 @@
+extend layout
+
+append vars
+  - title = 'אודות'
+  - footer_links = false
+
+block content
+  #about.container
+    :markdown-it(html, plugins=['markdown-it-link-target'])
+      ## אודות האתר
+
+      האתר הוקם כהוקרה לפועלו של העורך הראשי והבעלים של עיתון 'העולה הזה',
+      ח"כ לשעבר [אורי אבנרי](http://uriavnery.com/he/bio_textual.html) ז"ל,
+      שנחשב עד היום לעיתונאי החשוב והאמיץ ביותר שפעל בישראל.
+
+      תוכנת האתר משוחררת כקוד פתוח וחופשי תחת [רשיון AGPLv3](https://opensource.org/licenses/AGPL-3.0).
+      קוד המקור [זמין בגיטהב](https://github.com/thisworld1/thisworld.online).
+
+      ניתן ורצוי [להוריד את כל הארכיון למחשב](archive).
+
+      יצירת קשר: [ThisWorldOnline1@gmail.com](mailto:ThisWorldOnline1@gmail.com) ([לחץ כאן לשליחה ישירה דרך ג'ימייל](https://mail.google.com/mail/u/0/?view=cm&fs=1&to=thisworldonline1@gmail.com&tf=1))<br>
+      נודה על דיווחי תקלות, טעויות ושאר בעיות באתר.
+
+      ## אודות אורי אבנרי ז"ל- העורך והבעלים של עיתון 'העולם הזה'
+
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/e6rjxQK1nAo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      ['העולם הזה' בויקיפדיה](https://he.wikipedia.org/wiki/%D7%94%D7%A2%D7%95%D7%9C%D7%9D_%D7%94%D7%96%D7%94)
+
+      [האתר הרשמי של אורי אבנרי](http://uriavnery.com)
+
+      [ריכוז של כל טורי "הנדון" שפירסם אבנרי ברציפות בהעולם הזה משנת 1955 ל- 1989](http://uriavnery.com/he/haolam-H.html)
+
+      [אורי אבנרי בויקיפדיה](https://he.wikipedia.org/wiki/%D7%90%D7%95%D7%A8%D7%99_%D7%90%D7%91%D7%A0%D7%A8%D7%99)

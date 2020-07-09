@@ -1,0 +1,37 @@
+extend layout
+
+append vars
+  - full_title = "ארכיון העיתון העולם הזה - בעריכת אורי אבנרי"
+  - full_meta_desc = "כל גליונות 'העולם הזה' זמינים לחיפוש, קריאה והורדה"
+  - show_backpage = false
+  - footer_links = false
+
+block content
+  #home.container
+    p הארכיון כולל את גליונות העיתון 'העולם הזה' בעריכתו של אורי אבנרי ז"ל שיצאו בין השנים 1950 ל- 1989
+      |  (#[a(href='about') מידע נוסף בדף אודות]).
+      |  מומלץ לגלוש באתר במחשב או בטאבלט ולא בטלפון.
+      |  ניתן ורצוי #[a(href='archive') להוריד את כל הארכיון למחשב].
+    h3.mb-3: label.text-link(for="search-q") חיפוש בארכיון
+    +searchForm
+
+    form.form-inline.mb-3.issue-num-select
+      input.form-control.form-control-lg.mb-2.mr-2(type='number', name='issue-num', required,
+        placeholder="מעבר לגליון מס'", autocomplete="off", min="637", max="2730")
+
+      button.btn.btn-secondary.btn-lg.mb-2(type='submit') מעבר
+
+    h3.mb-3: a(href="terms") מונחים פופולריים
+    .row
+      for cat in term_categories
+        .col-md-3.col-sm-6.mb-3
+          h5: a(href=cat.href)= cat.name
+          ul.mb-0
+            for term in cat.terms
+              li: a(href=term.href)= term.label
+
+    h3.mb-3: a(href=".") גליונות אקראיים
+    include _issue_list
+
+    h3.mb-3 גליונות לפי שנים
+    include _year_list

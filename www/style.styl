@@ -1,0 +1,263 @@
+@import url("OpenSansHebrew/font.css");
+
+pcolor = #C73413
+
+body
+  direction rtl
+  text-align right
+  min-height 100vh
+  padding-bottom 1rem
+
+  &, *
+    font-family "Open Sans Hebrew","OpenSansHebrew","Helvetica Neue",tahoma,Helvetica,Arial,sans-serif !important
+
+.bg-primary, .btn-primary
+  background pcolor !important
+
+.btn-primary
+  &:hover, &:focus, &:active, &.active
+    background darken(pcolor, 7.5%) !important
+    border-color darken(pcolor, 10%) !important
+
+a
+  color pcolor
+  &:hover, &:focus, &:active, &.active
+    color darken(pcolor, 25%)
+
+h4
+  font-weight normal
+
+.navbar .container
+  height 40px
+.navbar-brand
+  padding 0
+
+.text-link
+  color pcolor
+  cursor pointer
+
+footer
+  border-top 1px solid #eee
+
+  p
+    margin-bottom 0
+
+.search-form .input-group
+  .form-control
+    border-left 0
+    padding-left 0
+  .input-group-text
+    background transparent
+    padding-right 0
+    border-right-color transparent
+
+.issue-num-select .form-control
+  width 9em
+
+ul.search-results
+  list-style none
+  padding-right 0
+
+  li:not(:last-child)
+    border-bottom 1px solid #eee
+    padding-bottom 1rem
+    margin-bottom 1rem
+
+  em
+    font-weight bold
+
+  img
+    width 175px
+    height 250px
+    overflow hidden
+    transform-origin top right
+
+  @media (min-width: 576px)
+    .enlarge:hover img
+      transform scale(2.5)
+      margin-left -100px
+
+.thumbnails
+  text-align center
+
+  img
+    width 100%
+    height auto
+    max-width 400px
+    transform-origin bottom
+
+  .links
+    max-width 15em
+    margin 0 auto
+
+.issue
+  header
+    background #fff
+
+    @media (min-height: 700px) and (min-width: 530px)
+      position sticky
+      top 56px
+      padding 1rem 0 1rem 0
+
+  &.grid-view
+    header
+      z-index 8
+
+  &.text-view
+    word-wrap break-word
+
+    header
+      z-index 10
+
+    .issue-page:not(:last-child)
+      border-bottom 1px solid #dee2e6
+      margin-bottom 1.5rem
+
+    .page-info
+      position sticky
+      top 86px
+      padding-bottom 2rem
+
+      a:hover
+        text-decoration none
+
+      @media (min-width: 768px)
+        text-align center
+      @media (min-width: 768px) and (min-height: 700px)
+        top 240px
+
+    h3
+      font-weight normal
+
+    img.arrow
+      vertical-align text-bottom
+
+    img.thumbnail
+      width 100%
+      max-width 300px
+      transform-origin top right
+
+    @media (min-width: 576px)
+      .enlarge:hover img.thumbnail
+        transform scale(2)
+
+.terms-cloud
+  li
+    margin-left 0.75rem !important
+
+@media (max-width: 575.98px)
+  #home .issue-thumbnails
+    > div:not(:first-child):not(:nth-child(2))
+      display none
+
+#about
+  h2
+    margin-bottom 1rem
+  iframe
+    margin-bottom 2rem
+    max-width 100%
+
+// shrink issue header on small devices
+@media (max-width: 767.98px)
+  .issue
+    header
+      .controls
+        margin 0 !important
+      h1
+        font-size 1.9rem
+      .btn
+        font-size 1rem
+        padding 0.375rem 1rem
+
+    // when sticky
+    @media (min-height: 700px) and (min-width: 530px)
+      &.text-view .page-info
+        top 180px
+
+// make navbar search smaller to fit in one line on small screens
+.navbar
+  @media (max-width: 767.78px)
+    [name=q]
+        width 10em
+  @media (max-width: 575.98px)
+    .input-group, .custom-select
+      width auto
+    .custom-select
+      margin-right 0.5rem !important
+    [name=q]
+      width 6em
+    [name=q], .btn
+      padding-right 0.5rem
+      padding-left 0.5rem
+  @media (max-width: 479px)
+    padding-left 0.5rem
+    padding-right 0.5rem
+    .container
+      padding 0
+    .navbar-brand
+      margin-left 0.5rem
+  @media (max-width: 425px)
+    .navbar-brand img
+      height 20px
+    [name=q]
+      width 6em
+    .custom-select
+      padding-right 0.5rem
+      padding-left 1.5rem
+  @media (min-width: 341.1px) and (max-width: 369px)
+    input, button, select
+      font-size 0.8rem
+    [name=q]
+      width 6.2em
+  @media (max-width: 341px)
+    select
+      display none
+
+// fix scrolling using #hash links to take sticky header into consideration
+.anchor[id]
+  position relative
+  z-index -1
+  padding-top 56px
+  margin-top -56px
+
+  .issue &
+    // with large sticky issue header
+    @media (min-height: 700px) and (min-width: 768px)
+      padding-top 230px
+      margin-top -230px
+
+    // with small sticky issue header
+    @media (min-height: 700px) and (min-width: 530px) and (max-width: 767.98px)
+      padding-top 170px
+      margin-top -170px
+
+@media (min-width: 576px)
+  .enlarge-container
+    z-index 7
+    &:not(.no-anim)
+      transition z-index .3s step-end
+    &:hover
+      z-index 9
+      transition-timing-function step-start
+
+  .enlarge
+    img
+      transition all .3s ease-in-out
+
+    &:hover img
+      z-index 9
+      transform scale(1.5)
+
+// disable hover-to-enlarge on touch devices
+no-enlarge()
+  .enlarge-container:hover
+    z-index auto !important
+  .enlarge img
+    z-index auto !important
+    transform none !important
+
+@media (hover: none)
+  no-enlarge()
+// hover:none selector doesn't seem to work on some mobile devices
+.touch-device
+  no-enlarge()

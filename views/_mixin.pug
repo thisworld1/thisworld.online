@@ -1,0 +1,74 @@
+mixin searchForm(query={}, fixedYear=null, btnText='חיפוש')
+
+  - keyword_help = 'ניתן להשתמש בגרשיים לחיפוש "ביטוי מדויק";<br>"+" כך שכל מילות החיפוש חייבות להופיע;<br>"|" כך שחלק ממילות החיפוש יתאימו; "-" כך שביטוי לא יופיע;<br>סוגריים לקבוע קדימות.<br><br>לדוגמה: <em>"משה דיין" + (שוד | גניבת) + עתיקות</em> ,<em>דיין -יעל</em>'
+  - years_help = 'ניתן לבחור מספר שנים מופרדות בפסיק וטווח שנים בעזרת מקף, לדוגמה: <em>1950,1951,1960-1970</em>'
+
+  form.search-form.form-inline.mb-3(method='get', action='search')
+
+    .input-group.input-group-lg.mb-2.mr-sm-2
+      input.form-control.form-control-lg#search-q(type='text', name='q', required,
+        placeholder='מילות חיפוש', value=query.q, autocomplete="off",
+        data-url="suggest" data-noresults-text="לא נמצאו השלמות.")
+      +tooltip_addon(keyword_help)
+
+    if fixedYear
+      input(type='hidden', name='years', value=fixedYear)
+
+    else
+      .input-group.input-group-lg.mb-2.mr-sm-2
+        input.form-control.form-control-lg(type='text', name='years',
+            placeholder='טווח שנים (אופציונלי)', value=query.years,
+            pattern=' *[0-9]{4}(-[0-9]{4})? *(, *[0-9]{4}(-[0-9]{4})? *)*')
+        +tooltip_addon(years_help)
+
+    if query.sort != 'relevance'
+      input(type='hidden', name='sort', value=query.sort)
+
+    button.btn.btn-primary.btn-lg.mb-2(type='submit')= btnText
+
+    block
+
+- get_size = (n, t, m) => (0.3 + Math.pow(n/t,0.3)*m).toFixed(2)
+
+mixin terms_cloud(term_categories, link_titles, max_size)
+  .row.terms-cloud
+    for cat in term_categories
+      .col-md-3.col-sm-6.mb-3
+        if link_titles
+          h5: a(href=cat.href)= cat.name
+        else
+          h5.anchor(id=cat.slug)= cat.name
+        ul.mb-0.list-inline
+          for term in cat.terms
+            - size = get_size(term.num_results, cat.max_num_results, max_size)
+            li.list-inline-item: a(href=term.href, title=`${formatNum(term.num_results)} תוצאות`, style=`font-size:${size}em`)= term.label
+
+mixin tooltip_addon(help_text)
+  .input-group-append
+    span.input-group-text(data-tippy-content=help_text)
+      +question_icon
+
+mixin download_icon
+  <svg class="bi bi-download" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" d="M.5 8a.5.5 0 01.5.5V12a1 1 0 001 1h12a1 1 0 001-1V8.5a.5.5 0 011 0V12a2 2 0 01-2 2H2a2 2 0 01-2-2V8.5A.5.5 0 01.5 8z" clip-rule="evenodd"/>
+    <path fill-rule="evenodd" d="M5 7.5a.5.5 0 01.707 0L8 9.793 10.293 7.5a.5.5 0 11.707.707l-2.646 2.647a.5.5 0 01-.708 0L5 8.207A.5.5 0 015 7.5z" clip-rule="evenodd"/>
+    <path fill-rule="evenodd" d="M8 1a.5.5 0 01.5.5v8a.5.5 0 01-1 0v-8A.5.5 0 018 1z" clip-rule="evenodd"/>
+  </svg>
+
+mixin question_icon
+  <svg class="bi bi-question-octagon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" d="M4.54.146A.5.5 0 014.893 0h6.214a.5.5 0 01.353.146l4.394 4.394a.5.5 0 01.146.353v6.214a.5.5 0 01-.146.353l-4.394 4.394a.5.5 0 01-.353.146H4.893a.5.5 0 01-.353-.146L.146 11.46A.5.5 0 010 11.107V4.893a.5.5 0 01.146-.353L4.54.146zM5.1 1L1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z" clip-rule="evenodd"/>
+    <path d="M5.25 6.033h1.32c0-.781.458-1.384 1.36-1.384.685 0 1.313.343 1.313 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.007.463h1.307v-.355c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.326 0-2.786.647-2.754 2.533zm1.562 5.516c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+  </svg>
+
+mixin arrow_left_icon
+  img.arrow(src=baseStatic+'img/arrow-left.svg', width=32, height=32)
+
+mixin arrow_right_icon
+  img.arrow(src=baseStatic+'img/arrow-right.svg', width=32, height=32)
+
+mixin search_button
+  <svg class="bi bi-search" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z" clip-rule="evenodd"/>
+    <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z" clip-rule="evenodd"/>
+  </svg>

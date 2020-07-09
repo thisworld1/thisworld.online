@@ -1,0 +1,17 @@
+ul.search-results
+  for result in results
+    li(data-search-hl=result.terms.join('|'))
+      p.mb-0
+        a(href=result.href).font-weight-bold
+          | גליון #{result.issue_num} (#{result.date_he}), עמוד #{result.page_num}
+      p.mb-2
+        a(href=result.href) טקסט
+        != ' &middot; '
+        a(href=result.image) תמונה
+        != ' &middot; '
+        a(href=result.pdf) PDF
+      .clearfix
+        a.enlarge(href=result.href)
+          img.float-left.mr-2.mb-2(src=result.thumbnail, alt=makeAltText.result(result), loading='lazy')
+
+        p!= result.highlight.replace(/<em>/g, '<mark>').replace(/<\/em>/g, '</mark>')
