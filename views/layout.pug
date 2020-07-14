@@ -42,7 +42,7 @@ body.d-flex.flex-column
       select.year-select.custom-select.ml-3(name='')
         option(value='') שנים
         for ayear in availableYears
-          option(selected=(year==ayear))= ayear
+          option= ayear
 
   #content.flex-grow-1
     block content
