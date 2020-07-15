@@ -10,9 +10,16 @@ block content
   .issue(class=view_class, itemscope, itemtype="http://schema.org/CreativeWork")
 
     header: .container
-      h1 גליון #{issue.issue_num}
+      h1
+        if prev_issue
+          a.small.text-muted(href=prev_issue, title='גליון קודם'): +arrow_right_icon
+          = ' '
+        | גליון #{issue.issue_num}
         = ' '
         small.text-muted(itemprop='datePublished', content=issue.date) מתאריך #{issue.date_he}
+        if next_issue
+          = ' '
+          a.small.text-muted(href=next_issue, title='גליון הבא'): +arrow_left_icon
 
       .controls.my-3
         a.btn.btn-primary.btn-lg.mb-2(href=issue.pdf) הצג PDF

@@ -220,6 +220,27 @@ module.exports = (solr, assets_base) => {
     return Array.from(new Set(suggestions))
   }
 
-  return { findByNum, findByYear, findByKeyword, getRandomIssues, suggest }
+  // Get the previous and next issues
+  async function getPrevNext(issue_num) {
+    async function get(range, sort) {
+      const r = await search(solr.createQuery()
+        .matchFilter('type', 'issue')
+        //.set(`fq=${enc(`issue_num:[${range}]`)}`)
+        .q(`issue_num:[${range}]`)
+        .restrict('issue_num, year')
+        .sort({ issue_num: sort })
+        .rows(1)
+      )
+      if (!r.response.numFound) return null
+      const issue = r.response.docs[0]
+      return `${issue.year}/${issue.issue_num}`
+    }
+    return {
+      prev_issue: await get(`* TO ${issue_num-1}`, 'desc')
+    , next_issue: await get(`${issue_num+1} TO *`, 'asc')
+    }
+  }
+
+  return { findByNum, findByYear, findByKeyword, getRandomIssues, suggest, getPrevNext }
 }
 
