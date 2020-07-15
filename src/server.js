@@ -78,6 +78,8 @@ app.get('/:year(\\d{4})/:issue(\\d+)/:type(gallery)?', p(async (req, res, next) 
   if (issue.year != req.params.year)
     return res.redirect(301, `/${issue.year}/${req.url.substr(6)}`)
 
+  Object.assign(res.locals, await db.getPrevNext(issue.issue_num))
+
   res.locals.show_gallery = req.params.type == 'gallery'
 
   cacheForever(res)
