@@ -17,7 +17,7 @@
     "mark.js": "^8.11.1",
     "markdown-it-link-target": "^1.0.2",
     "morgan": "^1.10.0",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "solr-client": "^0.7.1",
     "stylus": "^0.54.7",
     "superagent": "^5.2.2",
